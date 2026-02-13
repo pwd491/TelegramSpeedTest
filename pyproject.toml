@@ -1,0 +1,10 @@
+[project]
+name = "TelegramSpeedTest"
+version = "0.1.0"
+description = "Simple Telegram upload/download speed test using FastTelethon"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "python-dotenv>=1.2.1",
+    "telethon>=1.42.0",
+]
